@@ -54,3 +54,6 @@ Workflow `.github/workflows/android.yml` автоматически запуск
 - `app/src/main/java/tj/autotest/app/` — интерфейс, локальная Room база, настройки и демонстрационные задания.
 - `app/build.gradle.kts` — Android, Compose, Room, DataStore и параметры SDK.
 - `.github/workflows/android.yml` — автоматическая сборка APK и публикация артефакта.
+- `privacy-policy.html` — двуязычная политика конфиденциальности; `app/src/main/assets/privacy-policy.html` — офлайн-копия в приложении.
+
+Чтобы сделать ссылку политики доступной для Play Console, в GitHub откройте **Settings → Pages**, выберите ветку `main` и папку `/ (root)`. После публикации проверьте URL `https://ilhomahmedov488-jpg.github.io/pdd/privacy-policy.html` в браузере. Ссылка в настройках приложения ведёт на этот адрес.
